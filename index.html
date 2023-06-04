@@ -4,20 +4,17 @@
 <style>
 body{
 	background-image:url('img/bg.png');
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 
 
-div {
-	padding: 50px;
-	border: 6px solid #4CAF50;
-}
 
 ul {
 	list-style-type: none;
 	padding: 15;
 	overflow: auto;
-	background-color: #e7e9eb;
+	background-color: #0000;
 
 }
 
@@ -30,15 +27,156 @@ li a {
   padding: 8px;
 }
 
+#header {
+    font-size: 50px;
+    color: #FFF;
+    background-color: #105d8c;
+    height: 80px;
+    width: 1000px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#wrapper {
+    width: 1000px;
+    /* overflow: auto; */
+    overflow: hidden;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+#wrapper #pagetitle {
+    background-color: #0a3759;
+    font-size: 40px;
+    height: 46px;
+    width: 800px;
+    color: #FFF;
+    padding-top: 20px;
+    padding-left: 200px;
+    border-bottom-width: 1px;
+    border-bottom-color: #000;
+    border-bottom-style: solid;
+}
+
+#wrapper #background {
+    background-image: url(../../../../20161205011221im_/http_/cfgmodding.com/images/background.png);
+    background-color: #6DB1FF;
+    float: left;
+    width: 1000px;
+    padding: 0px;
+    height: 100%;
+    margin: 0px;
+}
+
+#navigation {
+    background: #105d8c;
+    width: 170px;
+    -moz-border-bottom-left-radius: 6px;
+    -moz-border-bottom-right-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    padding: 15px;
+    float: left;
+}
+
+#navigation ol, #navigation ul, #navigation li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navigation ul li {
+    color: white;
+    font-size: 20px;
+}
+
+#wrapper #background #content {
+    overflow: auto;
+    background-color: #CCE3FF;
+    float: left;
+    width: 760px;
+    margin: 0px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+element.style {
+    line-height: 160%;
+}
+
+
+element.style {
+    text-align: center;
+    line-height: 50px;
+}
+
+element.style {
+    text-align: center;
+}
+
+#wrapper #background #content p {
+    line-height: 140%;
+    padding-bottom: 20px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+.bold18 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+element.style {
+    line-height: 150%;
+}
+
+ul {
+    list-style: none;
+}
+
+
+element.style {
+    margin-bottom: 20px;
+}
+
+
+#navigation ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
 </style>
 	<title>lysergic.io</title>
 </head>
 <body>
 
-	<h1>lysergic.io</h1>
-	<p>Welcome to my website</p>
+<div id="wrapper"> 
 
+<div id="header">
+    	Lysergic.io
+    </div>
 
+<div id="pagetitle">
+      Home
+    </div>
+
+<div id="background">
+	<div id="navigation">
 <ul>
 	<li><a href="#home">Home</a></li>
 	<li><a href="#cfgmodding">CFGModding Archive</a></li>
@@ -48,6 +186,28 @@ li a {
 
 
 </ul>
+
+</div>
+<div id="content">
+
+	<p style="text-align: center;line-height:50px">
+		<span style="font-size: 30px; font-weight: bold;">
+		Welcome to Lysergic.io</span>
+		<br>
+		<span style="line-height:160%">
+			Bookmark this page for convenient access!
+		</span>
+	</p>
+	<p style="text-align:center">&nbsp;</p>
+	<p class="bold18">Site News</p>
+	<ul style="line-height:150%;">
+		<li style="margin-bottom:20px;">
+			3/06/2023 - Website goes live.
+		</li>
+
+
+
+</div>
 
 </body>
 </html>
